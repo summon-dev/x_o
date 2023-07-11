@@ -71,7 +71,7 @@ update_table(0,0)
 
 while game_is_on(ls):
     try:
-        pos = int(input("Enter a free position for 'X': "))
+        pos = int(input("Enter a free position for 'X' or 12 for quit: "))
     except ValueError:
         print("The position is not a valid position, Please try again:")
     else:
